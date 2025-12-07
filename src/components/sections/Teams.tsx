@@ -14,14 +14,14 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Armaan Hedar",
-    role: "Director",
+    name: "Mukesh Dubey",
+    role: "Film Director",
     department: "Production",
     bio: "Experienced director bringing creative vision to life in every project.",
     social: { email: "info@a1filmstudio.com" }
   },
   {
-    name: "Santosh Badal",
+    name: "Vishwajit Masal",
     role: "Director",
     department: "Production",
     bio: "Creative director with expertise in Television Commercials and Corporate Films.",
@@ -35,8 +35,8 @@ const teamMembers: TeamMember[] = [
     social: { email: "info@a1filmstudio.com" }
   },
   {
-    name: "Akhilesh Mishra",
-    role: "Business Partner",
+    name: "Kafil Ahmed",
+    role: "Film Director",
     department: "Business Development",
     bio: "Strategic business partner driving growth and client relationships.",
     social: { email: "info@a1filmstudio.com" }
@@ -49,8 +49,8 @@ const teamMembers: TeamMember[] = [
     social: { email: "info@a1filmstudio.com" }
   },
   {
-    name: "Ramanath Jha",
-    role: "Director",
+    name: "Abhishek Singh",
+    role: "Film Director",
     department: "Production",
     bio: "Visionary director with a passion for storytelling and visual excellence.",
     social: { email: "info@a1filmstudio.com" }

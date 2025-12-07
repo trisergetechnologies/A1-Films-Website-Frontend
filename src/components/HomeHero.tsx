@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const HomeHero = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-br from-white via-purple-50/40 via-pink-50/30 to-white hero-glow">
+    <section className="relative py-14 min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-br from-white via-purple-50/40 via-pink-50/30 to-white hero-glow">
       {/* Enhanced Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-4 sm:left-10 w-64 sm:w-72 md:w-96 h-64 sm:h-72 md:h-96 bg-gradient-to-br from-primary/15 to-purple-600/10 rounded-full filter blur-3xl animate-pulse-slow"></div>
@@ -39,7 +39,7 @@ const HomeHero = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Link to="/#contact" className="w-full sm:w-auto">
+              <Link to="/quote" className="w-full sm:w-auto">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto border-2 border-primary/30 bg-white/50 backdrop-blur-sm text-foreground hover:bg-gradient-to-r hover:from-primary/5 hover:via-purple-600/5 hover:to-pink-600/5 py-5 sm:py-6 text-base sm:text-lg font-semibold transition-all duration-300 hover:scale-105 rounded-xl hover:border-primary/50">
                   Get Started
                   <ArrowUpRight className="ml-2 h-5 w-5" />
@@ -67,8 +67,11 @@ const HomeHero = () => {
           <div className="lg:w-1/2 w-full mt-8 lg:mt-0 animate-fade-in-right">
             <div className="relative max-w-md mx-auto animate-float">
               <div className="aspect-video bg-gradient-to-br from-primary/10 via-purple-600/10 to-pink-600/10 rounded-2xl sm:rounded-3xl shadow-2xl border border-primary/20 flex items-center justify-center relative overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <Film className="h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 text-primary/30 relative z-10 group-hover:scale-110 transition-transform duration-500" />
+                <img
+                src="/images/studio.jpg"
+                alt="A1 Films"
+                className="w-full rounded-3xl shadow-2xl object-cover"
+              />
               </div>
               <div className="absolute -right-4 sm:-right-6 -bottom-4 sm:-bottom-6 bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl p-3 sm:p-4 border border-primary/20 shadow-xl">
                 <div className="flex items-center space-x-2 sm:space-x-3">

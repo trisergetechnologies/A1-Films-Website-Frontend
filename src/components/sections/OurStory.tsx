@@ -29,9 +29,11 @@ const OurStory = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <div className="aspect-video bg-gradient-to-br from-primary/10 via-purple-600/10 to-pink-600/10 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl">
-                  <span className="text-4xl sm:text-5xl md:text-6xl">🎬</span>
-                </div>
+               <img
+                src="/images/studio02.jpg"
+                alt="A1 Films"
+                className="w-full rounded-3xl shadow-2xl object-cover"
+              />
               </div>
             </div>
 
@@ -46,9 +48,11 @@ const OurStory = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <div className="aspect-video bg-gradient-to-br from-purple-600/10 via-pink-600/10 to-primary/10 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl">
-                  <span className="text-4xl sm:text-5xl md:text-6xl">🚀</span>
-                </div>
+                <img
+                src="/images/growth.jpg"
+                alt="A1 Films"
+                className="w-full rounded-3xl shadow-2xl object-cover"
+              />
               </div>
             </div>
 
@@ -63,9 +67,11 @@ const OurStory = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <div className="aspect-video bg-gradient-to-br from-pink-600/10 via-primary/10 to-purple-600/10 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl">
-                  <span className="text-4xl sm:text-5xl md:text-6xl">✨</span>
-                </div>
+                <img
+                src="/images/film.jpg"
+                alt="A1 Films"
+                className="w-full rounded-3xl shadow-2xl object-cover"
+              />
               </div>
             </div>
           </div>

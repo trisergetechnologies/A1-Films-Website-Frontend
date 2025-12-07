@@ -11,46 +11,46 @@ interface Review {
 
 const reviews: Review[] = [
   {
-    name: "Sarah Johnson",
-    role: "CEO",
-    company: "Tech Innovations",
+    name: "Rahul Sinha",
+    role: "Singer & Composer",
+    company: "Independent Artist",
     rating: 5,
-    comment: "Outstanding service and exceptional results. They exceeded our expectations and delivered beyond what we imagined. Highly recommended!"
+    comment: "Studio ka environment bahut professional aur creative tha. Recording aur mixing ki quality top-notch! Unke support ki wajah se mera track expected se bhi zyada outstanding nikla. Highly recommended for serious artists!"
   },
   {
-    name: "Michael Chen",
-    role: "Marketing Director",
-    company: "Global Solutions",
+    name: "Ananya Roy",
+    role: "Producer",
+    company: "Silver Frame Productions",
     rating: 5,
-    comment: "Professional, efficient, and results-driven. The team's expertise and attention to detail made all the difference in our project's success."
+    comment: "Video shoot experience was amazing! Team extremely talented hai and they understand cinematic style very well. Editing and color grading ne final output ko next level bana diya. Truly impressed!"
   },
   {
-    name: "Emily Rodriguez",
-    role: "Founder",
-    company: "StartupHub",
+    name: "Vikas Chauhan",
+    role: "Music Director",
+    company: "Melody Beats",
     rating: 5,
-    comment: "Working with them has been a game-changer. Their innovative approach and commitment to excellence is unmatched. Truly impressed!"
+    comment: "Kaafi professional team hai, deadlines perfectly manage kiye aur creative inputs bhi diye. Sound design aur mastering ki clarity bahut hi solid thi. Future projects definitely yahi karenge."
   },
   {
-    name: "David Thompson",
-    role: "Operations Manager",
-    company: "Enterprise Corp",
+    name: "Ishita Kapoor",
+    role: "Actor",
+    company: "DreamMotion Films",
     rating: 5,
-    comment: "Reliable, professional, and always delivers on time. They understand our needs and consistently provide solutions that work."
+    comment: "Production team very supportive aur friendly thi. Camera work aur lighting ka quality cinematic tha. Final short film dekhne ke baad sabko bahut pasand aayi. Fantastic experience!"
   },
   {
-    name: "Lisa Anderson",
-    role: "Product Manager",
-    company: "Digital Dynamics",
+    name: "Saurabh Mishra",
+    role: "YouTube Creator",
+    company: "SM Vlogs",
     rating: 5,
-    comment: "Exceptional quality and service. The team is responsive, creative, and truly cares about our success. Couldn't be happier!"
+    comment: "Background music, SFX, and post-production absolutely perfect. Team ne mere content ka level upgrade kar diya. Fast delivery ke saath quality compromise bilkul nahi kiya. 100% value!"
   },
   {
-    name: "James Wilson",
-    role: "CTO",
-    company: "Innovation Labs",
+    name: "Megha Jain",
+    role: "Model & Performer",
+    company: "Freelance Artist",
     rating: 5,
-    comment: "Top-notch expertise and professionalism. They transformed our vision into reality with precision and excellence. Outstanding work!"
+    comment: "Music video shoot bahut smooth tha. Team creative aur supportive thi, har shot thoughtfully plan kiya. Final output dekhkar goosebumps aa gaye. Outstanding work, thank you!"
   }
 ];
 

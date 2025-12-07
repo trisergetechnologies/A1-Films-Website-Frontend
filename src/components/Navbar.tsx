@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {  faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,12 +22,14 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md py-3 shadow-lg border-b border-gray-100' : 'py-6 bg-white/80 backdrop-blur-sm'}`}>
+    <nav className={`fixed w-full z-50 pb-3 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md py-3 pb-3 shadow-lg border-b border-gray-100' : 'py-6 bg-white/80 backdrop-blur-sm'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-            A1<span className="text-primary">Films</span>
-          </h1>
+          <img
+                src="/images/A1logo03.png"
+                alt="A1 Films"
+                className="w-full rounded-3xl shadow-2xl object-cover"
+              />
         </Link>
 
         {/* Desktop menu */}
@@ -33,7 +37,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/" 
-              className={`transition-colors ${isActive('/') || isActive('/home') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'}`}
+              className={`transition-colors ${isActive('/') || isActive('/home') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'} text-xl`}
             >
               Home
             </Link>
@@ -41,7 +45,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/services" 
-              className={`transition-colors ${isActive('/services') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'}`}
+              className={`transition-colors ${isActive('/services') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'} text-xl`}
             >
               Services
             </Link>
@@ -49,7 +53,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/about" 
-              className={`transition-colors ${isActive('/about') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'}`}
+              className={`transition-colors ${isActive('/about') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'} text-xl`}
             >
               About
             </Link>
@@ -57,7 +61,7 @@ const Navbar = () => {
           <li>
             <Link 
               to="/teams" 
-              className={`transition-colors ${isActive('/teams') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'}`}
+              className={`transition-colors ${isActive('/teams') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'} text-xl`}
             >
               Team
             </Link>
@@ -65,9 +69,10 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden lg:flex items-center space-x-4">
-          <Link to="/#contact">
+          <Link to="/quote">
             <Button className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white shadow-lg hover:shadow-xl transition-all">
-              Contact Us
+            <FontAwesomeIcon icon={faPaperPlane} className="text-2xl text-white" />
+              Send Us Your Quote
             </Button>
           </Link>
         </div>
@@ -124,7 +129,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="pt-4 flex flex-col space-y-3 border-t border-gray-100">
-                <Link to="/#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <Link to="/quote" onClick={() => setIsMobileMenuOpen(false)}>
                   <Button className="w-full bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white">
                     Contact Us
                   </Button>

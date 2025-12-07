@@ -38,11 +38,11 @@ const Footer = () => {
           <div>
             <h3 className="text-foreground font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
+              <li><Link to="/home" className="text-muted-foreground hover:text-primary transition-colors font-light">Home</Link></li>
               <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">All Services</Link></li>
-              <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">Video Production</Link></li>
-              <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">Audio Production</Link></li>
-              <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">Post Production</Link></li>
-              <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">Animation</Link></li>
+              <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors font-light">About</Link></li>
+              <li><Link to="/teams" className="text-muted-foreground hover:text-primary transition-colors font-light">Team</Link></li>
+              <li><Link to="/teams" className="text-muted-foreground hover:text-primary transition-colors font-light">Get Quote</Link></li>
             </ul>
           </div>
           
@@ -52,8 +52,8 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <a href="mailto:a1filmspltd@gmail.com" className="text-muted-foreground hover:text-primary transition-colors text-sm font-light block">a1filmspltd@gmail.com</a>
-                  <a href="mailto:a1@a1filmstudio.com" className="text-muted-foreground hover:text-primary transition-colors text-sm font-light block">a1@a1filmstudio.com</a>
+                  <a href="mailto:a1filmspltd@gmail.com" className="text-muted-foreground hover:text-primary transition-colors text-sm font-light block">sales@a1filmstudio.com</a>
+                  <a href="mailto:a1@a1filmstudio.com" className="text-muted-foreground hover:text-primary transition-colors text-sm font-light block">a1filmspltd@gmail.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-2">
@@ -67,7 +67,7 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground text-sm font-light">C/37, Mayur Vihar, Phase-I, Delhi- 110091</p>
+                  <p className="text-muted-foreground text-sm font-light">51/D5, Four Bunglow, SVP Nagar Andheri(W), Mumbai- 400043</p>
                 </div>
               </li>
             </ul>

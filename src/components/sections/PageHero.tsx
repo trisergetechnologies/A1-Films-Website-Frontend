@@ -9,7 +9,7 @@ interface PageHeroProps {
 
 const PageHero = ({ title, subtitle, className = '', children }: PageHeroProps) => {
   return (
-    <section className={`relative py-20 sm:py-24 md:py-32 lg:py-40 overflow-hidden bg-gradient-to-br from-white via-purple-50/40 via-pink-50/30 to-white hero-glow ${className}`}>
+    <section className={`relative py-32 sm:py-24 md:py-32 lg:py-40 overflow-hidden bg-gradient-to-br from-white via-purple-50/40 via-pink-50/30 to-white hero-glow ${className}`}>
       {/* Enhanced Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-4 sm:left-10 w-64 sm:w-72 md:w-96 h-64 sm:h-72 md:h-96 bg-gradient-to-br from-primary/15 to-purple-600/10 rounded-full filter blur-3xl animate-pulse-slow"></div>

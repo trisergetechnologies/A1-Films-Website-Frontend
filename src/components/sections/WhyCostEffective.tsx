@@ -69,7 +69,7 @@ const WhyCostEffective = () => {
               Contact us today for a free consultation and discover how we can help you achieve your goals cost-effectively.
             </p>
             <a
-              href="#contact"
+              href="/quote"
               className="group inline-flex items-center gap-2 px-8 md:px-10 py-4 md:py-5 bg-gradient-to-r from-primary via-purple-600 to-pink-600 hover:from-primary/90 hover:via-purple-600/90 hover:to-pink-600/90 text-white rounded-xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               Request a Quote
