@@ -5,9 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
+    host: "0.0.0.0",
     port: 8080,
-    open: true,
+    strictPort: true,
+    allowedHosts: ["a1filmstudio.com", "www.a1filmstudio.com"],
+    open: false,
   },
   plugins: [
     react(),
