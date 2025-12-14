@@ -9,6 +9,8 @@ import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import useScrollAnimation from '@/utils/useScrollAnimation';
+import Clientreferrals from '@/components/sections/Clientreferrals'
+import GalleryCut from '@/components/sections/GalleryCut'
 
 const Home = () => {
   useScrollAnimation();
@@ -22,9 +24,11 @@ const Home = () => {
       <Navbar />
       <HomeHero />
       <HomeAbout />
+      <Clientreferrals />
       <HomeServices />
       <WhyChooseUs />
       <ClientsReviews />
+      <GalleryCut />
       <ContactForm />
       <Footer />
       <ScrollToTop />

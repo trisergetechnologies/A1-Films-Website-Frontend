@@ -66,6 +66,14 @@ const Navbar = () => {
               Team
             </Link>
           </li>
+          <li>
+            <Link 
+              to="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1yAx-HQQKoFg5i_46Rq00Sj8D9TwiI3kDTieCiBHvdhW2xy_vIVZy1XMcONGvYOEIkcyThfcpQ" 
+              className={`transition-colors ${isActive('/teams') ? 'text-primary font-semibold' : 'text-foreground hover:text-primary'} text-xl`}
+            >
+              Book Consultation
+            </Link>
+          </li>
         </ul>
 
         <div className="hidden lg:flex items-center space-x-4">
@@ -128,6 +136,14 @@ const Navbar = () => {
                   Team
                 </Link>
               </li>
+              <li>
+            <Link 
+              to="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1yAx-HQQKoFg5i_46Rq00Sj8D9TwiI3kDTieCiBHvdhW2xy_vIVZy1XMcONGvYOEIkcyThfcpQ" 
+              className={`transition-colors ${isActive('/teams') ? 'text-primary font-medium' : 'text-foreground hover:text-primary'} text-xl`}
+            >
+              Book Consultation
+            </Link>
+          </li>
               <li className="pt-4 flex flex-col space-y-3 border-t border-gray-100">
                 <Link to="/quote" onClick={() => setIsMobileMenuOpen(false)}>
                   <Button className="w-full bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white">

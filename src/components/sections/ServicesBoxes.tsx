@@ -9,8 +9,8 @@ interface Service {
 const services: Service[] = [
   {
     icon: <Target className="h-7 w-7 sm:h-8 sm:w-8" />,
-    title: "Brand Management",
-    description: "A1 Films Pvt. Ltd. is a brand building and brand management organization. We believe that a brand is the sum total of your customer experiences."
+    title: "Voice-Over and Dubbing ",
+    description: "We offer a range of voice-dubbing services – dubbing Indian and non-Indian content into multiple regional languages, dubbing animation projects, voice-overs, commercials, radio sports, and much more."
   },
   {
     icon: <PenTool className="h-7 w-7 sm:h-8 sm:w-8" />,
@@ -18,19 +18,19 @@ const services: Service[] = [
     description: "A1 Films is a story-driven production company. Our talented writers with proven track records create compelling concepts and well-conceived screenplays."
   },
   {
-    icon: <Share2 className="h-7 w-7 sm:h-8 sm:w-8" />,
-    title: "Social Media",
-    description: "Using social media for marketing to enable businesses to further their reach to more customers. Strong social media presence is key to tap into customer interest."
+    icon: <Target className="h-7 w-7 sm:h-8 sm:w-8" />,
+    title: "Recording Studio Consultancy",
+    description: "A1 Films Pvt. Ltd. delivers complete studio setup solutions along with expert consultancy for all broadcasting, audio-video, and media technology needs—serving studios, auditoriums, institutions, events, and production houses with end-to-end technical support."
   },
   {
     icon: <Share2 className="h-7 w-7 sm:h-8 sm:w-8" />,
-    title: "Social Media Marketing",
-    description: "Social media marketing (SMM) implements various social media networks to achieve marketing communication and branding goals through content sharing."
+    title: "Audio Book Creation",
+    description: "Release your next professional song, audiobook, or podcast to build trust and create new fans! More quality content to your name, equals more awareness and growth for your brand / business."
   },
   {
     icon: <Megaphone className="h-7 w-7 sm:h-8 sm:w-8" />,
-    title: "Media Services",
-    description: "Comprehensive media services to help businesses reach their target audience effectively through various channels and platforms."
+    title: "Audio Production and Editing",
+    description: "A1 Films specializes in Podcast Editing, Voice Over Recording, Audiobook Production, Dialogue Editing, Audio Ads Production, Sound Design, Foley, Background Music, Jingles and Intros in all Indian Languages."
   },
   {
     icon: <Target className="h-7 w-7 sm:h-8 sm:w-8" />,

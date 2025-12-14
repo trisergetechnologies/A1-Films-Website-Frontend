@@ -8,6 +8,7 @@ import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import useScrollAnimation from '@/utils/useScrollAnimation';
+import VideoCut from '@/components/sections/VideoCut'
 
 const Services = () => {
   useScrollAnimation();
@@ -25,6 +26,7 @@ const Services = () => {
       />
       <ServicesParagraph />
       <ServicesBoxes />
+      <VideoCut />
       <WhyCostEffective />
       <ContactForm />
       <Footer />

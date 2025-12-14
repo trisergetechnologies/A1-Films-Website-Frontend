@@ -42,10 +42,10 @@ const teamMembers: TeamMember[] = [
     social: { email: "info@a1filmstudio.com" }
   },
   {
-    name: "Alok Jha",
-    role: "Business Partner",
-    department: "Business Development",
-    bio: "Dedicated business partner focused on expanding our reach and impact.",
+    name: "Prabhat Jha",
+    role: "Video Editing",
+    department: "Visuals Development",
+    bio: "Dedicated video editing partner focused on client satisfaction",
     social: { email: "info@a1filmstudio.com" }
   },
   {

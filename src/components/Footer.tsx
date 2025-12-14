@@ -10,25 +10,25 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-8">
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-bold bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent mb-4">
-              A1<span className="text-primary">Films</span>
+              A1<span className="text-primary">Films</span> PVT. LTD.
             </h2>
             <p className="text-muted-foreground mb-6 max-w-xs font-light">
               A young and dynamic production house operating at the confluence of the local Indian scene. Specializing in Television Commercials, Corporate Films and Film Production.
             </p>
             <div className="flex space-x-4">
-              <a href="#!" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/a1filmsmumbai" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </a>
-              <a href="#!" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://x.com/SUNILPAWAN2" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </a>
-              <a href="#!" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/a1filmsmumbai/" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="#!" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/company/a1-films-pvt-ltd/" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
@@ -42,7 +42,7 @@ const Footer = () => {
               <li><Link to="/services" className="text-muted-foreground hover:text-primary transition-colors font-light">All Services</Link></li>
               <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors font-light">About</Link></li>
               <li><Link to="/teams" className="text-muted-foreground hover:text-primary transition-colors font-light">Team</Link></li>
-              <li><Link to="/teams" className="text-muted-foreground hover:text-primary transition-colors font-light">Get Quote</Link></li>
+              {/* <li><Link to="/teams" className="text-muted-foreground hover:text-primary transition-colors font-light">Get Quote</Link></li> */}
             </ul>
           </div>
           
@@ -67,7 +67,7 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground text-sm font-light">51/D5, Four Bunglow, SVP Nagar Andheri(W), Mumbai- 400043</p>
+                  <p className="text-muted-foreground text-sm font-light">39/39, SVP Nagar Andheri(W), Mumbai- 400053</p>
                 </div>
               </li>
             </ul>
